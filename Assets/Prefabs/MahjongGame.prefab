@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6023244790134236111}
   - component: {fileID: 6023244790134236097}
-  - component: {fileID: 6023244790134236096}
   - component: {fileID: 6023244790134236098}
   m_Layer: 0
   m_Name: MahjongGame
@@ -57,6 +56,10 @@ MonoBehaviour:
   - {fileID: 7451533568742791178, guid: fa11849a9668cf140836669d808c378f, type: 3}
   - {fileID: 3220611560716007999, guid: ce7a7cb516255224a90ba87ac979b05f, type: 3}
   - {fileID: 4132740150025196451, guid: 6ebda07711d8fa5468f44bf3303a7d05, type: 3}
+  - {fileID: 2497178696637225424, guid: 497f156762f03e449a7c0119b2ec9af2, type: 3}
+  - {fileID: 5833101596893019536, guid: 97030da6bc083ad41bc18856cc9173d7, type: 3}
+  - {fileID: 693265793613143403, guid: d13a9198c9d13a34387c18e88791d0d1, type: 3}
+  - {fileID: 2127564046864864166, guid: 850cbc3c4988454488a0e81d2e031044, type: 3}
   tilePrefab: {fileID: 4167276211607951332, guid: f7f605f89ea5eca4aba193b41a3269cc, type: 3}
   slots:
   - {fileID: 0}
@@ -126,18 +129,6 @@ MonoBehaviour:
   pointsText: {fileID: 0}
   points: 0
   finishGame: {fileID: 0}
---- !u!114 &6023244790134236096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6023244790134236109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbc6ee4a37eb374428c39ec424be9f2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6023244790134236098
 MonoBehaviour:
   m_ObjectHideFlags: 0

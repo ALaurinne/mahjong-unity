@@ -3833,7 +3833,6 @@ GameObject:
   - component: {fileID: 879224159}
   - component: {fileID: 879224161}
   - component: {fileID: 879224160}
-  - component: {fileID: 879224162}
   m_Layer: 5
   m_Name: Grid
   m_TagString: Untagged
@@ -3915,40 +3914,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879224158}
   m_CullTransparentMesh: 1
---- !u!114 &879224162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 879224158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7dd81031dfcc5740bdba5b4b38a5ec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  tiles:
-  - {fileID: 4770106764446209527, guid: dadd7b0e1d89bc44da920f2afa6ae194, type: 3}
-  - {fileID: 2002688224772458073, guid: fa11849a9668cf140836669d808c378f, type: 3}
-  - {fileID: 5769737018821436524, guid: ce7a7cb516255224a90ba87ac979b05f, type: 3}
-  - {fileID: 5042238675443027440, guid: 6ebda07711d8fa5468f44bf3303a7d05, type: 3}
-  slots:
-  - {fileID: 879275549}
-  - {fileID: 1075678265}
-  - {fileID: 1396259586}
-  - {fileID: 2032087580}
-  - {fileID: 987355932}
-  - {fileID: 1046854230}
-  - {fileID: 1201517111}
-  - {fileID: 81329056}
-  - {fileID: 1355451976}
-  - {fileID: 902400259}
-  - {fileID: 87611331}
-  - {fileID: 394820040}
-  - {fileID: 857395093}
-  - {fileID: 1111384056}
-  - {fileID: 1070968564}
-  - {fileID: 981718696}
 --- !u!1 &879275549 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4167276211607951332, guid: f7f605f89ea5eca4aba193b41a3269cc, type: 3}
@@ -9084,26 +9049,6 @@ PrefabInstance:
       propertyPath: slots.Array.data[63]
       value: 
       objectReference: {fileID: 581018126}
-    - target: {fileID: 6023244790134236097, guid: 0eb9ebe900df7a14cb44e785ad36f5fe, type: 3}
-      propertyPath: tilesType.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6023244790134236097, guid: 0eb9ebe900df7a14cb44e785ad36f5fe, type: 3}
-      propertyPath: tilesType.Array.data[4]
-      value: 
-      objectReference: {fileID: 4132740150025196451, guid: 6ebda07711d8fa5468f44bf3303a7d05, type: 3}
-    - target: {fileID: 6023244790134236097, guid: 0eb9ebe900df7a14cb44e785ad36f5fe, type: 3}
-      propertyPath: tilesType.Array.data[5]
-      value: 
-      objectReference: {fileID: 4132740150025196451, guid: 6ebda07711d8fa5468f44bf3303a7d05, type: 3}
-    - target: {fileID: 6023244790134236097, guid: 0eb9ebe900df7a14cb44e785ad36f5fe, type: 3}
-      propertyPath: tilesType.Array.data[6]
-      value: 
-      objectReference: {fileID: 4132740150025196451, guid: 6ebda07711d8fa5468f44bf3303a7d05, type: 3}
-    - target: {fileID: 6023244790134236097, guid: 0eb9ebe900df7a14cb44e785ad36f5fe, type: 3}
-      propertyPath: tilesType.Array.data[7]
-      value: 
-      objectReference: {fileID: 4132740150025196451, guid: 6ebda07711d8fa5468f44bf3303a7d05, type: 3}
     - target: {fileID: 6023244790134236109, guid: 0eb9ebe900df7a14cb44e785ad36f5fe, type: 3}
       propertyPath: m_Name
       value: MahjongGame

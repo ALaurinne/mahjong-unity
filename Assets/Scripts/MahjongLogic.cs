@@ -20,13 +20,13 @@ public class MahjongLogic : MonoBehaviour
     
     void Update()
     {
-        if(points == 32){
+        if(points == 3200){
             finishGame.SetActive(true);
         }
     }
 
     public void UpdatePoints(){
-        points += 1;
+        points += 100;
         pointsText.SetText(points.ToString());
     }
 
@@ -63,7 +63,7 @@ public class MahjongLogic : MonoBehaviour
     public List<Tiles> GenerateTiles(){
         List<Tiles> newTiles = new List<Tiles>();
 
-        for(int i = 0; i < 16; i++){
+        for(int i = 0; i < (64/tilesType.Count); i++){
             foreach(var j in tilesType){
                 newTiles.Add(j);
             }
@@ -89,7 +89,7 @@ public class MahjongLogic : MonoBehaviour
 
         var factor = 0;
         while(factor < 61){
-            for(int i = 0; i < tilesType.Count; i++){
+            for(int i = 0; i < 4; i++){
                 slots[i+factor].SetActive(true);
 
                 var tileComponent = slots[i+factor].GetComponent<Tiles>();
@@ -100,7 +100,7 @@ public class MahjongLogic : MonoBehaviour
                     tileComponent.canClick = true;
                 }
             }
-            factor += tilesType.Count;
+            factor += 4;
         }
         
     }
